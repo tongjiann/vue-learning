@@ -5,7 +5,9 @@ const welcome = ref("welcomeClass")
 </script>
 
 <template>
-  <label :class="welcome">Welcome to my project about learning vue</label>
+  <div>
+    <label :class="welcome">Welcome to my project about learning vue</label>
+  </div>
 </template>
 
 <style scoped>
